@@ -101,3 +101,22 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+main article {
+    background-image: url("assets/improvehero.png");
+    background-size: cover;
+    background-position: top;
+}
+main h1 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 80pt;
+    color: #f196f8;
+    position: relative;
+    left: 3rem;
+    top: 20rem;
+}
+.hero {
+    max-width: 1920px;
+    height: 690px;
+    margin-top: 30px;
+}
