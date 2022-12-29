@@ -101,3 +101,12 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+main h1 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 80pt;
+    color: #A49FFF;
+}
+main img {
+    width: 100%;
+}
