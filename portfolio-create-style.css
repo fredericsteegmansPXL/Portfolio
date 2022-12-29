@@ -101,3 +101,18 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+main h1 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 85pt;
+    color: #A49FFF;
+}
+.hero {
+    max-width: 1920px;
+    margin-top: 30px;
+}
+main article {
+    background-image: url("assets/create-hero.png");
+    background-size: cover;
+    background-position: top;
+}
