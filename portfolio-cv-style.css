@@ -170,7 +170,57 @@ img {
     padding-top: 2rem;
 }
 
-i {
+#head i {
     color: #A49FFF;
     padding-right: 1rem;
+}
+
+#quote {
+    width: 550px;
+    text-align: center;
+    margin-top: 9rem;
+    font-family: Lato, sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    line-height: 2;
+}
+
+#sum {
+    width: 900px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+#main {
+
+    margin-top: 15rem;
+}
+
+#mainlist {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+#mainlist ul::before {
+    color: red;
+
+}
+
+#main2 {
+    margin-top: 5rem;
+}
+
+#main3 {
+    margin-top: 5rem;
+}
+
+#sum h3 {
+    font-size: 14pt;
+    padding-bottom: 2rem;
+    color: #A49FFF;
+}
+
+#taal {
+    padding-left: 2rem;
+    list-style-type: none;
 }
