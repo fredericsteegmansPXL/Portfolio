@@ -150,3 +150,146 @@ footer p i {
 main {
     margin-top: 30px;
 }
+
+.howhelp {
+    height: 40rem;
+    background-image: url("assets/uncommon.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vraag {
+    margin-top: 100px;
+    font-size: 5rem;
+    color: #394D53;
+    font-weight: 900;
+    text-align: center;
+    line-height: 0.35;
+    padding-top: 15rem;
+}
+
+.vraagspiegel {
+    transform: rotateX(180deg);
+    color: #f196f8;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.howhelp p {
+    font-family: Lato, sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 17rem;
+}
+
+.howhelp p a {
+    color: #A49FFF;
+}
+
+.howhelp img {
+    width: 70px;
+}
+
+#c1 {
+    position: relative;
+    left: 2rem;
+    bottom: 40rem;
+}
+
+#c2 {
+    position: relative;
+    right: 2.5rem;
+    bottom: 29rem;
+}
+
+#c3 {
+    position: relative;
+    right: 7rem;
+    bottom: 18rem;
+}
+
+#c4 {
+    position: relative;
+    right: 11.5rem;
+    bottom: 7rem;
+}
+
+#l1 {
+    position: relative;
+    left: 65rem;
+    bottom: 48rem;
+}
+
+#l2 {
+    position: relative;
+    left: 62.47rem;
+    bottom: 45.85rem;
+    transform: rotate(90deg);
+}
+
+#l3 {
+    position: relative;
+    left: 56rem;
+
+}
+
+#l4 {
+    position: relative;
+    left: 53.47rem;
+    transform: rotate(90deg);
+    bottom: 2.3rem;
+}
+
+.create {
+    margin-top: 20rem;
+    height: 40rem;
+}
+
+.container-fluid {
+    max-width: 1920px;
+}
+
+#createlinks {
+    background-color: #A49FFF;
+}
+
+#createrechts {
+    padding: 16rem 0 16rem 0;
+    text-align: center;
+}
+
+button {
+    color: #ffffff;
+    background-color: #f196f8;
+    border: none;
+    border-radius: 37px;
+    padding: 1.5rem 5rem;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 3rem;
+}
+
+button:hover {
+    border-radius: 40px;
+    padding: 1.5rem 5.5rem;
+    font-weight: 300;
+    background-color: #59ff70;
+    cursor: pointer;
+}
+
+.create h1{
+    font-family: "Utopia Std";
+    font-size: 85pt;
+    color: #A49FFF;
+}
+
+.create p {
+    font-family: Lato, sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+}
