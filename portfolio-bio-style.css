@@ -111,3 +111,22 @@ main p {
     font-weight: 200;
     line-height: 2;
 }
+
+main h2 {
+    font-family: "Bungee regular", sans-serif;
+    color: #A49FFF;
+    margin-bottom: 1rem;
+
+}
+
+#slot p {
+    font-family: Georgia, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 2;
+    text-align: center;
+}
+
+#slot {
+    margin: 20rem 0 20rem 0;
+}
