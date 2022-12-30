@@ -130,3 +130,17 @@ main h2 {
 #slot {
     margin: 20rem 0 20rem 0;
 }
+
+#cvpic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#midsection {
+    margin: 6rem;
+}
+
+#midsection hr {
+    margin-top: 8.5rem;
+    border: solid 1px #A49FFF;
+}
