@@ -133,8 +133,44 @@ main article button {
 main article button:hover {
     border-radius: 40px;
     padding: 1.5rem 6.5rem;
-    font-weight: 300;
-    font-size: 14pt;
+    font-weight: 500;
+    font-size: 12pt;
     cursor: pointer;
+    background-color: #A1FFA1;
 
+}
+
+img {
+    width: 100%;
+
+}
+
+#head {
+    width: 620px;
+
+}
+
+#date {
+    text-align: right;
+}
+
+#pic {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #A49FFF;
+    font-family: Lato, sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+#subpic p {
+    font-family: Lato, sans-serif;
+    font-size: 14pt;
+    padding-top: 2rem;
+}
+
+i {
+    color: #A49FFF;
+    padding-right: 1rem;
 }
