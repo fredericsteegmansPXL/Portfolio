@@ -45,7 +45,6 @@ header nav ul li p {
 footer {
     text-align: center;
     background-color: #A49FFF;
-    margin-top: 10rem;
     color: #ffffff;
     height: 250px;
 }
@@ -283,7 +282,7 @@ button:hover {
 }
 
 .create h1{
-    font-family: "Utopia Std";
+    font-family: "Utopia Std", sans-serif;
     font-size: 85pt;
     color: #A49FFF;
 }
@@ -294,7 +293,7 @@ button:hover {
     font-weight: 300;
 }
 
-.create article{
+.create article {
     width: 50px;
     height: 100%;
     background-color: #ffffff;
@@ -352,7 +351,7 @@ button:hover {
 .visualize #vis2 h1 {
     text-align: right;
     padding-top: 4rem;
-    font-family: "Utopia Std";
+    font-family: "Utopia Std", sans-serif;
     font-size: 85pt;
     color: #A49FFF;
     position: relative;
@@ -362,7 +361,7 @@ button:hover {
 .visualize #visb h1 {
     text-align: left;
     padding-top: 4rem;
-    font-family: "Utopia Std";
+    font-family: "Utopia Std", sans-serif;
     font-size: 85pt;
     color: #ffffff;
     position: relative;
@@ -379,5 +378,61 @@ button:hover {
     margin-top: 15rem;
 }
 
+.programs img {
+    display: inline-block;
+    width: 3rem;
+    margin: 1rem;
+}
 
+.programs {
+    background-color: rgba(164, 159, 255, 0.5);
+    height: 10rem;
+    margin-top: 10rem;
+}
+
+.programs h3 {
+    font-family: Lato, sans-serif;
+    font-size: 12pt;
+    padding: 2rem 0 1rem 1rem;
+}
+
+.colorpallet article {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.colorpallet {
+    text-align: center;
+    margin-top: 13rem;
+}
+
+#boxa {
+    background-color: #F9F9F9;
+    width: 3.5rem;
+    height: 10rem;
+}
+
+#boxb {
+    background-color: #FF8FF1;
+    width: 3.5rem;
+    height: 13rem;
+}
+
+#boxc {
+    background-color: #C898FF;
+    width: 3.5rem;
+    height: 19rem;
+}
+
+#boxd {
+    background-color: #A49FFF;
+    width: 3.5rem;
+    height: 16rem;
+}
+
+#boxe {
+    background-color: #A1FFA1;
+    width: 3.5rem;
+    height: 7rem;
+}
 
