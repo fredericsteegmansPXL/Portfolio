@@ -201,9 +201,14 @@ img {
     padding-left: 1rem;
 }
 
-#mainlist ul::before {
-    color: red;
+#mainlist2 {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
 
+#mainlist3 {
+    list-style-type: disc;
+    padding-left: 1rem;
 }
 
 #main2 {
