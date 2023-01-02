@@ -122,7 +122,7 @@ main #contactside u a {
     color: #A49FFF;
 }
 
-main #form label, #formside label {
+main #form label, #side label {
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 12pt;
@@ -139,7 +139,7 @@ main #form input {
 
 
 
-main #formside textarea {
+main #side textarea {
     width: 500px;
     height: 200px;
     padding: 1rem;
@@ -147,7 +147,7 @@ main #formside textarea {
     border-radius: 10px;
 }
 
-main #formside input {
+main #side input {
     width: 5rem;
     margin: 1rem 1rem 0 0;
     background-color: #f196f8;
@@ -158,17 +158,16 @@ main #formside input {
     padding: 5px 10px 5px 10px;
 }
 
-main #formside #send {
+main #side #send {
     background-color: #A1FFA1;
     color: #6c757d;
 }
 
-main #formside input:hover {
+main #side input:hover {
     background-color: #A49FFF;
 
 }
-main #formside #send:hover {
+main #side #send:hover {
     background-color: #A49FFF;
     color: #ffffff;
-
 }

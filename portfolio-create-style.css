@@ -165,3 +165,21 @@ main article {
     left: 2rem;
     top: 48rem;
 }
+
+.box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+.box img:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+#inhoud {
+    width: 1200px;
+    margin-top: 8rem;
+}
