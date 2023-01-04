@@ -120,3 +120,15 @@ main h1 {
     height: 690px;
     margin-top: 30px;
 }
+
+.improve div {
+    border: black 1pt solid;
+}
+
+.improve div img {
+    width: 100%;
+}
+
+section {
+    margin-top: 8rem;
+}

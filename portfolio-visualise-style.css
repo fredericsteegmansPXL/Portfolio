@@ -110,3 +110,31 @@ main h1 {
 main img {
     width: 100%;
 }
+
+.mid {
+    margin-top: 8rem;
+}
+
+.mid img {
+    width: 600px;
+    margin: 4rem 0 5rem 26rem;
+}
+
+.mid p {
+    font-family: Lato, sans-serif;
+    font-size: 15pt;
+    font-weight: 300;
+}
+
+.mid i {
+    font-size: 48pt;
+}
+
+#img2 {
+    width: 800px;
+    margin: 4rem 0 5rem 22rem;
+}
+
+#t1, #t2 {
+    text-align: center;
+}
