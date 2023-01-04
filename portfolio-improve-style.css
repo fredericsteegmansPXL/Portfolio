@@ -122,7 +122,12 @@ main h1 {
 }
 
 .improve div {
-    border: black 1pt solid;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.improve i {
+    font-size: 30pt;
 }
 
 .improve div img {

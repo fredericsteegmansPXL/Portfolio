@@ -103,7 +103,7 @@ footer p i {
 
 main {
     background-color: #000;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
 }
 main article {
     color: #ffffff;
@@ -157,50 +157,28 @@ main img:hover {
 .hero p {
     margin: 3rem;
 }
-/*
-.button {
-    color: #ffffff;
-    width: 350px;
-    height: 100px;
-    padding: 2rem 0.5rem 2rem 1rem;
-    background-color: #f196f8;
-    border: none;
-    border-radius: 37px;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 12pt;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    text-align: left;
-}
-
-.button:hover {
-    background-color: #59ff70;
-    cursor: pointer;
-} */
 
 #opdracht {
     text-align: center;
 }
 
-.button {
+button {
     color: #ffffff;
     background-color: #f196f8;
+    margin-top: 2rem;
     border: none;
     border-radius: 25px;
     font-family: Lato, sans-serif;
     font-weight: 300;
-    font-size: 14pt;
-    width: 350px;
-    height: 100px;
+    font-size: 9pt;
+    width: 100px;
+    height: 30px;
 
 }
 
-.button:hover {
+button:hover {
     background-color: #59ff70;
     cursor: pointer;
 }
 
-.button i {
-    font-size: 25pt;
-}
 
