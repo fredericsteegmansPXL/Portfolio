@@ -13,24 +13,20 @@ header img {
 }
 
 header nav {
-    width: 1200px;
     margin: 0 auto;
     font-size: 9pt;
     display: flex;
     justify-content: center;
-
 }
 
 header nav ul {
-
-    align-content: center;
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 header nav ul li p {
     display: inline-block;
-    text-align: center;
     text-decoration: none;
     margin: 30px 20px 0 20px;
     padding: 1rem;
@@ -38,15 +34,12 @@ header nav ul li p {
     color: #394D53;
     font-size: 14px;
 }
-
-
-
-
 footer {
     text-align: center;
     background-color: #A49FFF;
     color: #ffffff;
     height: 250px;
+
 }
 
 footer a {
@@ -102,13 +95,43 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 #hero {
     background-image: url("assets/hero.jpg");
     background-size: cover;
     background-position: top;
-    height: 550px;
-    margin: 0 146px;
+    width: 1170px;
+    height: 570px;
+    margin: 0 auto;
 }
 
 #hero__titel {
@@ -120,19 +143,13 @@ footer p i {
 }
 
 #hero__sub {
-    margin: 360px 20px 10px 30px;
+    margin-top: 380px;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 24px;
 }
 
-#hero__sub__name {
-    border: solid #fff 2px;
-    border-radius: 10px;
-}
 
 #hero__subtitel {
-    text-align: right;
-    margin: 0 7rem;
     color: #fff;
     font-size: 10pt;
     font-family: Lato, sans-serif;
@@ -141,9 +158,12 @@ footer p i {
 
 #hero__under p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 2rem;
     font-family: Lato, sans-serif;
     font-weight: 300;
+}
+#hero__sub__function {
+    text-align: right;
 }
 
 main {
@@ -160,7 +180,7 @@ main {
 
 .vraag {
     margin-top: 100px;
-    font-size: 5rem;
+    font-size: 40pt;
     color: #394D53;
     font-weight: 900;
     text-align: center;
@@ -172,7 +192,7 @@ main {
     transform: rotateX(180deg);
     color: #f196f8;
     text-align: center;
-    font-size: 5rem;
+    font-size: 40pt;
     font-weight: 900;
 }
 
@@ -317,6 +337,11 @@ button:hover {
 .visualize {
     margin-top: 20rem;
 }
+.visualize {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
 
 #vis1 {
     background-color: #A49FFF;
@@ -336,10 +361,6 @@ button:hover {
 #visa {
     text-align: center;
     padding-top: 5.5rem;
-
-}
-
-#vis2 h1{
 
 }
 
@@ -435,4 +456,148 @@ button:hover {
     width: 3.5rem;
     height: 7rem;
 }
+
+@media screen and (max-width: 390px) {
+    #hero__titel {
+        font-size: 20px;
+    }
+    #hero__sub {
+        margin-top: 250px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header img {
+        visibility: hidden;
+    }
+    #hero {
+        width: 100%;
+    }
+    #hero__titel {
+        font-size: 70px;
+    }
+    #hero__sub {
+        margin-top: 250px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 651px) {
+    .vraagspiegel {
+        display: none;
+    }
+    .vraag {
+        line-height: 1;
+    }
+}
+@media screen and (max-width: 882px) {
+    #hero__sub {
+        margin-top: 270px;
+        text-align: center;
+        font-size: 45px;
+    }
+    #hero__sub__function {
+        display: none;
+    }
+    #hero__subtitel {
+        display: none;
+    }
+    #terugnaarboven {
+        display: none;
+    }
+    #c1, #c2, #c3, #c4 {
+        display: none;
+    }
+    .improve {
+        height: 1000px;
+        padding-top: 30rem;
+    }
+
+}
+
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 664px) {
+    #createlinks {
+        display: none;
+    }
+    .create {
+        margin-top: 2rem;
+    }
+    #createrechts {
+        margin: 1rem auto;
+        width: 100%;
+        height: 30rem;
+
+    }
+    #createrechts button {
+        font-size: 12pt;
+        padding: 1rem 3rem;
+    }
+    .visualize {
+        margin-top: 4rem;
+    }
+    .visualize button {
+        font-size: 12pt;
+        padding: 1rem 3rem;
+    }
+    .improve {
+        margin-top: 3rem;
+        padding-top: 15rem;
+        height: 600px;
+    }
+    .improve button {
+        font-size: 12pt;
+        padding: 1rem 3rem;
+    }
+    .visualize #vis2 h1 {
+        font-size: 60pt;
+        padding-top: 5.5rem;
+    }
+    .visualize #visb h1 {
+        font-size: 60pt;
+        padding-top: 5.5rem;
+    }
+    .colorpallet {
+        margin-top: 0rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    #createrechts h1 {
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #box2 {
+        display: none;
+    }
+    #createrechts h1 {
+        font-size: 75pt;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #hero {
+        width: 100%;
+    }
+     .vraag, .vraagspiegel {
+         font-size: 30pt;
+     }
+    .howhelp {
+        background-size: 500px;
+    }
+    #box3 {
+        display: none;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #l1, #l2, #l3, #l4 {
+        display: none;
+    }
+}
+
+
 
