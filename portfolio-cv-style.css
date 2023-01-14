@@ -13,24 +13,20 @@ header img {
 }
 
 header nav {
-    width: 1200px;
     margin: 0 auto;
     font-size: 9pt;
     display: flex;
     justify-content: center;
-
 }
 
 header nav ul {
-
-    align-content: center;
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 header nav ul li p {
     display: inline-block;
-    text-align: center;
     text-decoration: none;
     margin: 30px 20px 0 20px;
     padding: 1rem;
@@ -38,13 +34,12 @@ header nav ul li p {
     color: #394D53;
     font-size: 14px;
 }
-
 footer {
     text-align: center;
     background-color: #A49FFF;
-    margin-top: 10rem;
     color: #ffffff;
     height: 250px;
+
 }
 
 footer a {
@@ -100,6 +95,53 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+    header nav ul li p {
+        margin: 20px 10px 0 10px;
+
+    }
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header img {
+        visibility: hidden;
+    }
+}
 
 main article {
     text-align: center;
@@ -150,9 +192,7 @@ img {
 
 }
 
-#date {
-    text-align: right;
-}
+
 
 #pic {
     margin-top: 3rem;
@@ -172,7 +212,9 @@ img {
 
 #head i {
     color: #A49FFF;
-    padding-right: 1rem;
+}
+.info {
+    width: 100%;
 }
 
 #quote {
@@ -217,6 +259,7 @@ img {
 
 #main3 {
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 #sum h3 {
@@ -228,4 +271,42 @@ img {
 #taal {
     padding-left: 2rem;
     list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+    main div {
+        width: 100%;
+    }
+    main article {
+        width: 100%;
+        margin: 0;
+        padding: 200px 0;
+    }
+    main article h1 {
+        font-size: 70px;
+    }
+    #head {
+        width: 100%;
+    }
+    #quote {
+        width: 100%;
+    }
+    #sum {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    #subpic p {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main article h1 {
+        font-size: 60px;
+    }
+    #subpic p {
+        font-size: 7pt;
+    }
 }

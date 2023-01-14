@@ -13,24 +13,20 @@ header img {
 }
 
 header nav {
-    width: 1200px;
     margin: 0 auto;
     font-size: 9pt;
     display: flex;
     justify-content: center;
-
 }
 
 header nav ul {
-
-    align-content: center;
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 header nav ul li p {
     display: inline-block;
-    text-align: center;
     text-decoration: none;
     margin: 30px 20px 0 20px;
     padding: 1rem;
@@ -38,13 +34,12 @@ header nav ul li p {
     color: #394D53;
     font-size: 14px;
 }
-
 footer {
     text-align: center;
     background-color: #A49FFF;
-    margin-top: 10rem;
     color: #ffffff;
     height: 250px;
+
 }
 
 footer a {
@@ -66,13 +61,12 @@ footer a i {
     font-size: 50px;
     margin: 0 10px;
 }
+
 footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
 }
-
-
 
 .dropdown {
     position: relative;
@@ -100,6 +94,53 @@ footer p i {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+    header nav ul li p {
+        margin: 20px 10px 0 10px;
+
+    }
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header img {
+        visibility: hidden;
+    }
 }
 
 main h1 {
@@ -171,6 +212,7 @@ main article {
     height: 300px;
     border-radius: 15px;
     object-fit: cover;
+    margin: 0.5rem;
 
 }
 .box img:hover {
@@ -180,6 +222,33 @@ main article {
 
 
 #inhoud {
-    width: 1200px;
-    margin-top: 8rem;
+    width: 100%;
+    margin: 4rem auto;
+}
+
+@media screen and (max-width: 850px) {
+    #create4, #create5, #create6, .driehoekup, .linegreen, .linepaars {
+        display: none;
+    }
+    .box img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .driehoekdown {
+        display: none;
+    }
+    #create1, #create2, #create3 {
+        font-size: 60pt;
+        margin-left: 2rem;
+    }
+    .hero {
+        height: 15rem;
+    }
+    .box img {
+        width: 100px;
+        height: 100px;
+    }
 }

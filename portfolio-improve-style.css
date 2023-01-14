@@ -13,24 +13,20 @@ header img {
 }
 
 header nav {
-    width: 1200px;
     margin: 0 auto;
     font-size: 9pt;
     display: flex;
     justify-content: center;
-
 }
 
 header nav ul {
-
-    align-content: center;
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 header nav ul li p {
     display: inline-block;
-    text-align: center;
     text-decoration: none;
     margin: 30px 20px 0 20px;
     padding: 1rem;
@@ -38,13 +34,12 @@ header nav ul li p {
     color: #394D53;
     font-size: 14px;
 }
-
 footer {
     text-align: center;
     background-color: #A49FFF;
-    margin-top: 10rem;
     color: #ffffff;
     height: 250px;
+
 }
 
 footer a {
@@ -66,13 +61,12 @@ footer a i {
     font-size: 50px;
     margin: 0 10px;
 }
+
 footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
 }
-
-
 
 .dropdown {
     position: relative;
@@ -101,6 +95,53 @@ footer p i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+    header nav ul li p {
+        margin: 20px 10px 0 10px;
+
+    }
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header img {
+        visibility: hidden;
+    }
+}
 
 main article {
     background-image: url("assets/improvehero.png");
@@ -111,12 +152,9 @@ main h1 {
     font-family: "Utopia Std", sans-serif;
     font-size: 80pt;
     color: #f196f8;
-    position: relative;
-    left: 3rem;
-    top: 20rem;
+    padding: 8rem 0 0 3rem;
 }
 .hero {
-    max-width: 1920px;
     height: 690px;
     margin-top: 30px;
 }
@@ -135,5 +173,20 @@ main h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+@media screen and (max-width: 450px) {
+    .improve i {
+        font-size: 10pt;
+    }
+    main h1 {
+        font-size: 50pt;
+        left: 3rem;
+        top: 7rem;
+        padding: 3rem 0 0 2rem
+    }
+    .hero {
+        height: 300px;
+    }
 }

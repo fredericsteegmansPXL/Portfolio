@@ -12,43 +12,45 @@
 <body>
 <header>
     <a href="portfolio.html"> <img src="assets/logo-white%20kopie.png" alt="logo"></a>
-    <div class="container">
-        <div class="row align-items-center" id="header">
-            <div class="col-md" id="header__nav">
-                <nav>
-                    <ul>
-                        <li><a href="portfolio.html" ><p>home</p></a></li>
-                        <li><div class="dropdown">
-                            <p>me</p>
-                            <div class="dropdown-content">
-                                <a href="portfolio-bio.html">bio</a>
-                                <a href="portfolio-cv.html">curriculum vitae</a>
+    <nav>
+        <ul>
+            <li><a href="portfolio.html"><p>home</p></a></li>
+            <li><div class="dropdown">
+                <p>me</p>
+                <div class="dropdown-content">
+                    <a href="portfolio-bio.html">bio</a>
+                    <a href="portfolio-cv.html">curriculum vitae</a>
 
-                            </div>
-                        </div>
-                        </li>
-                        <li><div class="dropdown">
-                            <p>works</p>
-                            <div class="dropdown-content">
-                                <a href="portfolio-create.html">create</a>
-                                <a href="portfolio-visualise.html">visualise</a>
-                                <a href="portfolio-improve.html">improve</a>
-                                <a href="portfolio-projects.html">projects</a>
-                            </div>
-                        </div>
-                        </li>
-                        <li><a href="portfolio-contact.html"><p>contact</p></a></li>
-                    </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-    </div>
+            </li>
+            <li><div class="dropdown">
+                <p>works</p>
+                <div class="dropdown-content">
+                    <a href="portfolio-create.html">create</a>
+                    <a href="portfolio-visualise.html">visualize</a>
+                    <a href="portfolio-improve.html">improve</a>
+                    <a href="portfolio-projects.html">projects</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="portfolio-contact.html"><p>contact</p></a></li>
+        </ul>
+    </nav>
 </header>
+<a href="#"><div id="terugnaarboven">
+    <p>Top</p>
+</div>
+</a>
+<a href="#"><div id="terugnaarboven2">
+    <p><i class="fa-solid fa-arrow-up"></i></p>
+</div>
+</a>
 <main>
     <article>
         <h1>Curriculum vitae</h1>
         <h2>read below<br>or</h2>
-        <button>Download PDF</button>
+        <a href="assets/pdf/cv-kopie.pdf" target="_blank"><button>Download PDF</button></a>
     </article>
 <div class="container" id="head">
     <div class="row" id="subpic">
@@ -58,17 +60,20 @@
         <div id="pic">
             <h1>Frederic Steegmans</h1>
         </div>
-        <div class="col-6">
-            <div class="row">
+        <div class="row info">
+            <div class="col-6">
                 <p><i class="fa-solid fa-phone"></i>+32 476 364 195</p>
-                <p><i class="fa-solid fa-envelope"></i>fredericsteegmans@gmail.com</p>
             </div>
-        </div>
-        <div class="col-6" id="date">
+            <div class="col-6">
+            <p><i class="fa-solid fa-envelope"></i>fredericsteegmans@gmail.com</p>
+            </div>
+            <div class="col-6" id="date">
             <p>•  18-08-2000</p>
+            </div>
         </div>
     </div>
 </div>
+
 
     <div class="container" id="quote">
         <p>"I am a creative and energetic young man with lots of diverse
@@ -122,17 +127,15 @@
 <footer>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-4 py-5">
-                <p><i class="fa-solid fa-envelope"></i>  <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a></p>
-            </div>
-            <div class="col-md-4 py-5" id="footer__mid">
+            <div class="col-md-4 my-4 order-md-2" id="footer__mid">
                 <p>Contact me,</p>
                 <p>if you want</p>
-
             </div>
-            <div class="col-md-4 py-5">
+            <div class="col-md-4 mb-2 order-md-1">
+                <p><i class="fa-solid fa-envelope"></i>  <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a></p>
+            </div>
+            <div class="col-md-4 mb-2 order-md-3">
                 <p><i class="fa-solid fa-phone"></i>    +32 (0)476 364 195</p>
-
             </div>
         </div>
     </div>
@@ -140,6 +143,7 @@
         <a href="https://www.facebook.com/frederic.steegmans.5/"><i class="fa-brands fa-square-facebook"></i></a>
         <a href="https://www.instagram.com/dr.fre__/?hl=nl"> <i class="fa-brands fa-instagram"></i></a>
     </div>
+
 </footer>
 </body>
 </html>

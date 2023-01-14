@@ -4,27 +4,23 @@
     box-sizing: border-box;
     font-family: Lato, sans-serif;
 }
-
 header img {
     width: 80px;
     position: absolute;
     left: 15px;
     top: 15px;
 }
-
 header nav {
     margin: 0 auto;
     font-size: 9pt;
     display: flex;
     justify-content: center;
 }
-
 header nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
-
 header nav ul li p {
     display: inline-block;
     text-decoration: none;
@@ -39,59 +35,48 @@ footer {
     background-color: #A49FFF;
     color: #ffffff;
     height: 250px;
-
 }
-
 footer a {
     color: #ffffff;
 }
-
 #footer__mid p {
     font-size: 40px;
     font-family: Cormorant, serif;
     font-weight: 700;
 }
-
 footer p {
     font-weight: 700;
     font-family: Cormorant, serif;
 }
-
 footer a i {
     font-size: 50px;
     margin: 0 10px;
 }
-
 footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     min-width: 160px;
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
 .dropdown-content a:hover {
     color: #f196f8;
     font-weight: 800;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -123,8 +108,28 @@ footer p i {
     text-decoration: none;
     text-align: center;
 }
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+    header nav ul li p {
+        margin: 20px 10px 0 10px;
+    }
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header img {
+        visibility: hidden;
+    }
+}
 
+/*Algemene stijl*/
 
+/*stijl home => */
 #hero {
     background-image: url("assets/hero.jpg");
     background-size: cover;
@@ -166,7 +171,7 @@ footer p i {
     text-align: right;
 }
 
-main {
+#main_home {
     margin-top: 30px;
 }
 
@@ -514,7 +519,6 @@ button:hover {
         margin: 20px 10px 0 10px;
 
     }
-
 }
 
 @media screen and (min-width: 882px) {
@@ -533,7 +537,6 @@ button:hover {
         margin: 1rem auto;
         width: 100%;
         height: 30rem;
-
     }
     #createrechts button {
         font-size: 12pt;
@@ -572,7 +575,6 @@ button:hover {
         font-size: 50pt;
     }
 }
-
 @media screen and (max-width: 1000px) {
     #box2 {
         display: none;
@@ -585,9 +587,9 @@ button:hover {
     #hero {
         width: 100%;
     }
-     .vraag, .vraagspiegel {
-         font-size: 30pt;
-     }
+    .vraag, .vraagspiegel {
+        font-size: 30pt;
+    }
     .howhelp {
         background-size: 500px;
     }
@@ -601,5 +603,339 @@ button:hover {
     }
 }
 
+/* stijl bio =>                                                    <============================ */
+
+#main_bio img {
+    width: 100%;
+}
+
+#main_bio p {
+    font-family: Georgia, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 2;
+}
+
+#main_bio h2 {
+    font-family: "Bungee regular", sans-serif;
+    color: #A49FFF;
+    margin-bottom: 1rem;
+
+}
+
+#slot p {
+    font-family: Georgia, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 2;
+    text-align: center;
+}
+
+#slot {
+    margin: 20rem 0 20rem 0;
+}
+
+#cvpic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#midsection {
+    margin: 6rem;
+}
+
+#midsection hr {
+    margin-top: 8.5rem;
+    border: solid 1px #A49FFF;
+}
+
+@media screen and (max-width: 1200px) {
+    #midsection {
+        display: none;
+    }
+}
 
 
+/* stijl cv =>                                                    <============================ */
+
+#main_cv article {
+    text-align: center;
+    margin: 30px auto;
+    padding: 200px ;
+}
+
+#main_cv article h1 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 75pt;
+}
+
+#main_cv article h2 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 20pt;
+    color: #A49FFF;
+    margin: 20px auto;
+}
+
+#main_cv article button {
+    color: #ffffff;
+    background-color: #f196f8;
+    border: none;
+    border-radius: 37px;
+    padding: 1.5rem 6rem;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+#main_cv article button:hover {
+    border-radius: 40px;
+    padding: 1.5rem 6.5rem;
+    font-weight: 500;
+    font-size: 12pt;
+    cursor: pointer;
+    background-color: #A1FFA1;
+
+}
+
+#im {
+    width: 100%;
+
+}
+
+#head {
+    width: 620px;
+
+}
+
+
+
+#pic {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #A49FFF;
+    font-family: Lato, sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+#subpic p {
+    font-family: Lato, sans-serif;
+    font-size: 14pt;
+    padding-top: 2rem;
+}
+
+#head i {
+    color: #A49FFF;
+}
+.info {
+    width: 100%;
+}
+
+#quote {
+    width: 550px;
+    text-align: center;
+    margin-top: 9rem;
+    font-family: Lato, sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    line-height: 2;
+}
+
+#sum {
+    width: 900px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+#main {
+
+    margin-top: 15rem;
+}
+
+#mainlist {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+#exp {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+#hob {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+#main2 {
+    margin-top: 5rem;
+}
+
+#main3 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#sum h3 {
+    font-size: 14pt;
+    padding-bottom: 2rem;
+    color: #A49FFF;
+}
+
+#taal {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+    #main_cv div {
+        width: 100%;
+    }
+    #main_cv article {
+        width: 100%;
+        margin: 0;
+        padding: 200px 0;
+    }
+    #main_cv article h1 {
+        font-size: 70px;
+    }
+    #head {
+        width: 100%;
+    }
+    #quote {
+        width: 100%;
+    }
+    #sum {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    #subpic p {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #main_cv article h1 {
+        font-size: 60px;
+    }
+    #subpic p {
+        font-size: 7pt;
+    }
+}
+
+/* stijl create =>                                                    <============================ */
+
+#main_create h1 {
+    font-family: "Utopia Std", sans-serif;
+    font-size: 90pt;
+    color: #ffffff;
+    line-height: 1;
+}
+.hero {
+    max-width: 1920px;
+    margin-top: 30px;
+}
+#main_create article {
+    background-image: url("assets/create-hero.png");
+    background-size: cover;
+    background-position: top;
+}
+#create1 {
+    color: #A49FFF;
+    margin-left: 2rem;
+}
+
+#create2 {
+    margin-left: 10rem;
+}
+
+#create3 {
+    margin-left: 18rem;
+}
+#create4 {
+    margin-left: 26rem;
+}
+#create5 {
+    margin-left: 32rem;
+}
+#create6 {
+    margin-left: 40rem;
+}
+
+.driehoekdown {
+    width: 100px;
+    position: absolute;
+    right: 2rem;
+    top: 8.5rem
+}
+
+.driehoekup {
+    width: 100px;
+    position: absolute;
+    right: 2rem;
+    top: 40rem
+}
+.linegreen {
+    width: 170px;
+    position: absolute;
+    left: 2rem;
+    top: 45rem;
+}
+
+.linepaars {
+    width: 170px;
+    position: absolute;
+    left: 2rem;
+    top: 48rem;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0.5rem;
+
+}
+.box img:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+#inhoud {
+    width: 100%;
+    margin: 4rem auto;
+}
+
+@media screen and (max-width: 850px) {
+    #create4, #create5, #create6, .driehoekup, .linegreen, .linepaars {
+        display: none;
+    }
+    .box img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .driehoekdown {
+        display: none;
+    }
+    #create1, #create2, #create3 {
+        font-size: 60pt;
+        margin-left: 2rem;
+    }
+    .hero {
+        height: 15rem;
+    }
+    .box img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* stijl visualise =>                                                    <============================ */
