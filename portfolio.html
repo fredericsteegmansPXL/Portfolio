@@ -2,152 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Frederic Steegmans Portfolio</title>
+    <title>home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-grid.min kopie.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfolio-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-grid.min kopie.css">
 </head>
 <body>
-<header>
-    <a href="portfolio.html"> <img src="assets/logo-white%20kopie.png" alt="logo"></a>
-                <nav>
-                    <ul>
-                        <li><a href="portfolio.html"><p>home</p></a></li>
-                        <li><div class="dropdown">
-                            <p>me</p>
-                            <div class="dropdown-content">
-                                <a href="portfolio-bio.html">bio</a>
-                                <a href="portfolio-cv.html">curriculum vitae</a>
-
-                            </div>
-                            </div>
-                        </li>
-                        <li><div class="dropdown">
-                            <p>works</p>
-                            <div class="dropdown-content">
-                                <a href="portfolio-create.html">create</a>
-                                <a href="portfolio-visualise.html">visualize</a>
-                                <a href="portfolio-improve.html">improve</a>
-                                <a href="portfolio-projects.html">projects</a>
-                            </div>
-                        </div>
-                        </li>
-                        <li><a href="portfolio-contact.html"><p>contact</p></a></li>
-                    </ul>
-                </nav>
-</header>
+<nav>
+    <div class="logo"><a href="#"><img src="assets/logo-white%20kopie.png"></a></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a class="active" href="#">home</a></li>
+        <li><a href="portfolio-bio.html">bio</a></li>
+        <li><a href="portfolio-cv.html">cv</a></li>
+        <li><a href="#">works</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+</nav>
 <main>
-    <div class="container-*" id="hero">
+    <div class="hero">
+        <div class="intro">
+            <h2>Hello,</h2>
+            <h1>My name is Frederic<br>And I'm a <span>Digital Designer</span></h1>
+            <p>
+                I help businesses create a brand and platform to become uncommon <br>
+                amongst many other businesses and stand out.
+                I give a sweet combination of creativity and professionality.
+            </p>
+            <a href="#"><button>get to know me</button></a>
+            <a href="#"><button class="button2">see my work</button></a>
+
+        </div>
+
+    </div>
+    <div class="topcards">
+        <h1>What I Do</h1>
+        <p>As a student digital design I can do various things for you. I have experience with UX and UI-design, web and appdesign, coding with HTML, CSS and Javascript and I also love making and rebranding brands</p>
+    </div>
+    <div class="card">
+        <p id="hover1"><span>UX/UI-design</span></p>
+        <p id="hover2"><span>Webdevelopment</span></p>
+        <p id="hover3"><span>Branding</span></p>
+    </div>
+
+    <div class="subcard container">
         <div class="row">
-                <h1 id="hero__titel">BECOME UNCOMMON</h1>
-        </div>
-        <div class="row justify-content-end">
-            <div class="col-4 .col-md-6">
-                <div id="hero__subtitel">
-                    <p>A portfolio by Frederic Steegmans</p>
-                </div>
+            <div class="col-6">
+
             </div>
-        </div>
-        <div class="row justify-content-between" id="hero__sub">
-                <div class="col ms-5">
-                    <p>FREDERIC STEEGMANS</p>
-                </div>
-                <div class="col me-5" id="hero__sub__function">
-                    <p >UX/UI-DESIGN-INNOVATION</p>
-                </div>
+            <div class="col-6">
+
+            </div>
         </div>
     </div>
-    <section id="hero__under">
-        <p>
-            I help businesses create a brand and platform to become uncommon amongst many other businesses and stand out.<br> <br>
-            I give a sweet combination of creativity and professionality.
-        </p>
-    </section>
-    <a href="#"><div id="terugnaarboven">
-        <p>Top</p>
-    </div>
-    </a>
-    <a href="#"><div id="terugnaarboven2">
-        <p><i class="fa-solid fa-arrow-up"></i></p>
-    </div>
-    </a>
-    <section class="howhelp">
-        <div>
-            <div class="vraag" ><h1>HOW CAN I HELP YOU?</h1></div>
-            <div class="vraagspiegel" ><h1>HOW CAN I HELP YOU?</h1></div>
-            <p>Discover below or go directly to <a href="portfolio-contact.html">contact</a> and ask your businessrequest</p>
-            <img src="assets/cirkels.png" alt="design element" id="c1">
-            <img src="assets/cirkels.png" alt="design element" id="c2">
-            <img src="assets/cirkels.png" alt="design element" id="c3">
-            <img src="assets/cirkels.png" alt="design element" id="c4">
-            <img src="assets/linepaars.png" alt="design element" id="l1">
-            <img src="assets/linepaars.png" alt="design element" id="l2">
-            <img src="assets/linepaars.png" alt="design element" id="l3">
-            <img src="assets/linepaars.png" alt="design element" id="l4">
-        </div>
-    </section>
-
-    <section class="create">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6" id="createlinks">
-                    <article id="box1"></article>
-                    <article id="box2"></article>
-                    <article id="box3"></article>
-                </div>
-                <div class="col-6 justify-content-center" id="createrechts">
-                    <h1>Create.</h1>
-                    <p>You’re stuck or in need of new and refreshing ideas.<br><br>
-                        Out of the box thinking is where I shine.
-                    </p>
-                    <a href="portfolio-create.html"><button>Visit Create</button></a>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="visualize">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6" id="vis1">
-                </div>
-                <div class="col-6" id="visa">
-                    <p>You have an idea but don’t know how to realise it.<br><br>
-                        I visualize the very things you need to  see and let see.</p>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-6" id="vis2">
-                    <h1>Visu</h1>
-                </div>
-                <div class="col-6" id="visb">
-                    <h1>alize.</h1>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-6" id="vis3">
-                </div>
-                <div class="col-6" id="visc">
-                    <a href="portfolio-visualise.html"><button>Visit Visualize</button></a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid improve">
-        <div class="row justify-content-center">
-           <div class="col">
-               <a href="portfolio-improve.html"><button>Visit Improve</button></a>
-           </div>
-        </div>
-    </section>
 
     <section class="colorpallet">
         <article id="boxa"></article>
@@ -156,18 +73,6 @@
         <article id="boxd"></article>
         <article id="boxe"></article>
     </section>
-
-    <section class="programs">
-        <h3>Programs I use:</h3>
-        <img src="assets/ps.png" alt="icoon van photoshop">
-        <img src="assets/ai.png" alt="icoon van illustrator">
-        <img src="assets/xd.png" alt="icoon van xd">
-        <img src="assets/WebStorm.png" alt="icoon van webstorm">
-        <img src="assets/html.png" alt="icoon van html">
-        <img src="assets/css.png" alt="icoon van css">
-    </section>
-
-
 </main>
 <footer>
     <div class="container">
@@ -177,10 +82,11 @@
                 <p>if you want</p>
             </div>
             <div class="col-md-4 mb-2 order-md-1">
-                <p><i class="fa-solid fa-envelope"></i>  <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a>
+                </p>
             </div>
             <div class="col-md-4 mb-2 order-md-3">
-                <p><i class="fa-solid fa-phone"></i>    +32 (0)476 364 195</p>
+                <p><i class="fa-solid fa-phone"></i> +32 (0)476 364 195</p>
             </div>
         </div>
     </div>
@@ -190,6 +96,5 @@
     </div>
 
 </footer>
-
 </body>
 </html>
