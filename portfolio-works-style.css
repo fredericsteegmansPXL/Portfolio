@@ -1,10 +1,13 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, sans-serif;
 }
-
+body {
+    background-color: transparent;
+}
 nav{
     display: flex;
     height: 150px;
@@ -13,6 +16,7 @@ nav{
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
+    position: absolute;
 }
 
 nav a img{
@@ -34,7 +38,7 @@ nav ul li{
     margin-right: 4rem;
 }
 nav ul li a{
-    color: #5d5d5d;
+    color: #f2f2f2;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -46,7 +50,7 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
     color: #f196f8;
-    text-shadow: 2px 4px 4px rgba(217, 217, 250, 0.71);
+    text-shadow: 2px 4px 4px rgb(107, 107, 215);
 }
 nav .menu-btn i{
     color: #fff;
@@ -135,6 +139,116 @@ input[type="checkbox"]{
 }
 /* Header */
 
+
+/* Hero*/
+.hero {
+    height: fit-content;
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    background-image: url("assets/Maanlandingfake.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero .intro{
+    color: #ffe9e9;
+    margin-left: 11rem;
+}
+.hero .intro h1 {
+    font-size: 30pt;
+}
+.hero .intro h1 span {
+    color: #f5b1fc;
+}
+
+.hero .intro h2 {
+    color: #f471ff;
+}
+.hero .intro p {
+    font-size: 7pt;
+    text-align: left;
+    color: #ecebeb;
+    margin-top: 1rem;
+}
+.hero .intro button {
+    padding: 1rem 2rem;
+    background-color: rgba(241, 150, 248, 0.27);
+    color: #ffffff;
+    border-radius: 30px;
+    border: #f196f8 2px solid;
+    margin-top: 4rem;
+}
+.hero .intro button:hover {
+    box-shadow: 2px 4px 4px rgb(107, 107, 215);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
+    background-color: rgba(241, 150, 248, 0.77);
+}
+.hero .intro .button2 {
+    margin-left: 2rem;
+    background-color: rgba(249, 189, 253, 0.43);
+    border:#f9bdfd 2px solid;
+}
+.hero .intro .button2:hover {
+    box-shadow: 2px 4px 4px rgb(89, 255, 112);
+    transition: 0.5s cubic-bezier(1.55, 0.265, -0.55, 0.58);
+    cursor: pointer;
+    background-color: rgba(249, 189, 253, 0.88);
+}
+
+@media (max-width: 920px) {
+    .hero .intro {
+        margin: 0 auto;
+        padding: 2rem;
+    }
+}
+
+/* cards */
+
+main img {
+    width: 100%;
+    border-radius: 15px;
+    opacity: 95%;
+}
+
+main img:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.mid p {
+    padding-right: 5rem;
+}
+.mid h2 {
+    font-family: Lato, sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.mid {
+    margin-top: 5rem;
+}
+
+.mid .row {
+    margin: 5rem 0 5rem 0;
+}
+
+.hero p {
+    margin: 3rem;
+}
+
+#opdracht {
+    text-align: center;
+}
+
+
+
+/* footer */
+
 footer {
     text-align: center;
     background-color: #A49FFF;
@@ -167,93 +281,4 @@ footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
-}
-
-#terugnaarboven {
-    position: fixed;
-    bottom: 0;
-    right: 25px;
-    background-color: #FF8FF1;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 0.5rem 2rem;
-}
-#terugnaarboven p {
-    color: #ffffff;
-    text-decoration: none;
-}
-#terugnaarboven2 {
-    position: fixed;
-    bottom: 0;
-    right: 25px;
-    background-color: #FF8FF1;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 1rem;
-}
-#terugnaarboven2 p {
-    color: #ffffff;
-    font-size: 25pt;
-    text-decoration: none;
-    text-align: center;
-}
-@media screen and (max-width: 882px) {
-    #terugnaarboven {
-        display: none;
-    }
-}
-@media screen and (min-width: 882px) {
-    #terugnaarboven2 {
-        display: none;
-    }
-}
-
-main img {
-    width: 100%;
-}
-
-main p {
-    font-family: Georgia, sans-serif;
-    font-size: 13px;
-    font-weight: 200;
-    line-height: 2;
-}
-
-main h2 {
-    font-family: "Bungee regular", sans-serif;
-    color: #A49FFF;
-    margin-bottom: 1rem;
-
-}
-
-#slot p {
-    font-family: Georgia, sans-serif;
-    font-size: 13px;
-    font-weight: 200;
-    line-height: 2;
-    text-align: center;
-}
-
-#slot {
-    margin: 20rem 0 20rem 0;
-}
-
-#cvpic {
-    width: 100%;
-    border-radius: 50%;
-}
-
-#midsection {
-    margin: 6rem;
-}
-
-#midsection hr {
-    margin-top: 8.5rem;
-    border: solid 1px #A49FFF;
-}
-
-@media screen and (max-width: 1200px) {
-    #midsection {
-        display: none;
-    }
 }

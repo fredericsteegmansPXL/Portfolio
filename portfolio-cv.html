@@ -10,34 +10,20 @@
     <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <a href="portfolio.html"> <img src="assets/logo-white%20kopie.png" alt="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="portfolio.html"><p>home</p></a></li>
-            <li><div class="dropdown">
-                <p>me</p>
-                <div class="dropdown-content">
-                    <a href="portfolio-bio.html">bio</a>
-                    <a href="portfolio-cv.html">curriculum vitae</a>
-
-                </div>
-            </div>
-            </li>
-            <li><div class="dropdown">
-                <p>works</p>
-                <div class="dropdown-content">
-                    <a href="portfolio-create.html">create</a>
-                    <a href="portfolio-visualise.html">visualize</a>
-                    <a href="portfolio-improve.html">improve</a>
-                    <a href="portfolio-projects.html">projects</a>
-                </div>
-            </div>
-            </li>
-            <li><a href="portfolio-contact.html"><p>contact</p></a></li>
-        </ul>
-    </nav>
-</header>
+<nav>
+    <div class="logo"><a href="portfolio.html"><img src="assets/logo-white%20kopie.png"></a></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a href="portfolio.html">home</a></li>
+        <li><a href="portfolio-bio.html">bio</a></li>
+        <li><a class="active" href="portfolio-cv.html">cv</a></li>
+        <li><a href="portfolio-works.html">works</a></li>
+        <li><a href="portfolio-contact.html">contact</a></li>
+    </ul>
+</nav>
 <a href="#"><div id="terugnaarboven">
     <p>Top</p>
 </div>
