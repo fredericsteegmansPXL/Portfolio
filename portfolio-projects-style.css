@@ -150,7 +150,7 @@ main {
 main article {
     color: #ffffff;
 }
-main h1 {
+.mid h1 {
     font-family: "Utopia Std", sans-serif;
     font-size: 70pt;
     color: #ffffff;
@@ -161,19 +161,19 @@ main h1 {
 
 }
 
-main #here {
+.mid #here {
     text-align: center;
     font-family: Lato, sans-serif;
     font-weight: 200;
 }
 
-main img {
+.mid img {
     width: 100%;
     border-radius: 15px;
     opacity: 95%;
 }
 
-main img:hover {
+.mid img:hover {
     opacity: 100%;
     cursor: pointer;
 }
