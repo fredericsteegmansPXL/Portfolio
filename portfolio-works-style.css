@@ -178,28 +178,18 @@ input[type="checkbox"]{
 }
 .hero .intro button {
     padding: 1rem 2rem;
-    background-color: rgba(241, 150, 248, 0.27);
+    background-color: rgba(241, 150, 248, 0.65);
     color: #ffffff;
     border-radius: 30px;
     border: #f196f8 2px solid;
     margin-top: 4rem;
 }
 .hero .intro button:hover {
-    box-shadow: 2px 4px 4px rgb(107, 107, 215);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 0 0 30px 5px rgba(241, 150, 248, 0.35);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
     cursor: pointer;
-    background-color: rgba(241, 150, 248, 0.77);
-}
-.hero .intro .button2 {
-    margin-left: 2rem;
-    background-color: rgba(249, 189, 253, 0.43);
-    border:#f9bdfd 2px solid;
-}
-.hero .intro .button2:hover {
-    box-shadow: 2px 4px 4px rgb(89, 255, 112);
-    transition: 0.5s cubic-bezier(1.55, 0.265, -0.55, 0.58);
-    cursor: pointer;
-    background-color: rgba(249, 189, 253, 0.88);
 }
 
 @media (max-width: 920px) {

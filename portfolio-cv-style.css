@@ -238,12 +238,12 @@ main article button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
 }
 main article button:hover {
-    border-radius: 40px;
-    padding: 1.5rem 6.5rem;
-    font-weight: 500;
-    font-size: 12pt;
     cursor: pointer;
     background-color: #A1FFA1;
+    box-shadow: 0 0 30px 5px rgba(88, 246, 88, 0.37);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 
 }
 

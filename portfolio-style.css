@@ -177,10 +177,10 @@ input[type="checkbox"]{
     padding: 1rem 2rem;
     margin-top: 2rem;
     border-radius: 18px;
-    background-color: rgba(241, 150, 248, 0.7);
+    background-color: rgba(241, 150, 248, 0.63);
     border: #f196f8 solid 2px;
-    color: white;
-    font-size: 7pt;
+    color: #ffffff;
+    font-size: 8pt;
 }
 
 .but1:hover {
@@ -320,7 +320,7 @@ input[type="checkbox"]{
 #latest .pasta img:hover {
     box-shadow: 0 0 15px 2px rgba(34, 41, 231, 0);
     cursor: pointer;
-    width: 81%;
+    border-radius: 5px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -352,7 +352,7 @@ input[type="checkbox"]{
     margin: 0 auto;
 }
 
-.card p {
+.card a {
     height: 100%;
     flex: 1;
     overflow: hidden;
@@ -363,13 +363,14 @@ input[type="checkbox"]{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.card p:hover {
+.card a:hover {
     flex: 2;
 }
 
-.card p span {
+.card a span {
     min-width: 14em;
     padding: .5em;
     text-align: center;
@@ -382,7 +383,7 @@ input[type="checkbox"]{
     font-weight: 600;
 }
 
-.card p:hover span {
+.card a:hover span {
     transform: rotate(0);
 }
 .card #hover1 {
