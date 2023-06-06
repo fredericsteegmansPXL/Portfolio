@@ -5,80 +5,65 @@
     <title>Frederic Steegmans Visualise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-grid.min kopie.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&display=swap"
+          rel="stylesheet">
     <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfolio-visualise-style.css">
 </head>
 <body>
-<header>
-    <a href="portfolio.html"> <img src="assets/logo-white%20kopie.png" alt="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="portfolio.html"><p>home</p></a></li>
-            <li><div class="dropdown">
-                <p>me</p>
-                <div class="dropdown-content">
-                    <a href="portfolio-bio.html">bio</a>
-                    <a href="portfolio-cv.html">curriculum vitae</a>
-
-                </div>
-            </div>
-            </li>
-            <li><div class="dropdown">
-                <p>works</p>
-                <div class="dropdown-content">
-                    <a href="portfolio-create.html">create</a>
-                    <a href="portfolio-visualise.html">visualize</a>
-                    <a href="portfolio-improve.html">improve</a>
-                    <a href="portfolio-projects.html">projects</a>
-                </div>
-            </div>
-            </li>
-            <li><a href="portfolio-contact.html"><p>contact</p></a></li>
-        </ul>
-    </nav>
-</header>
-<a href="#"><div id="terugnaarboven">
-    <p>Top</p>
-</div>
-</a>
-<a href="#"><div id="terugnaarboven2">
-    <p><i class="fa-solid fa-arrow-up"></i></p>
-</div>
-</a>
+<nav>
+    <div class="logo"><a href="portfolio-works.html"><i class="fa-solid fa-arrow-left"></i></a></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a href="portfolio-create.html">UX/UI</a></li>
+        <li><a class="active" href="portfolio-visualise.html">Coding</a></li>
+        <li><a href="portfolio-improve.html">Design</a></li>
+    </ul>
+</nav>
 <main>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6" >
-                <h1>Visualize.</h1>
+    <div class="hero">
+        <div class="intro">
+            <h1>CODING</h1>
+            <p>
+                Checkout below what I can do.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid inhoud">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+                <h1>Coding expertise</h1>
+                <p>As far as coding goes I know HTML, CSS and Javascript. I always work on getting better and learning
+                    new things. I can make websitesites as you desire, however as to now I do not know how to implement
+                    advanced codes like functional loginpages and things like a working shoppingpage. I can however design
+                    and code the design into your page. Only thing left is for a webmaster to make it work.
+                </p>
+            </div>
+            <div class="col-md-5 pic1">
+                <img src="assets/hcj.png" alt="picture of coding languages">
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-md-5 pic2">
+                <img src="assets/sql.png" alt="picture of SQL">
             </div>
 
-            <div class="col-6">
-                <img src="assets/visualisehero.png" alt="foto van een living">
+            <div class="col-md-5">
+                <h1>Data</h1>
+                <p>I know how to manage data in SQl. This is not my expertise at all but it seems necessary to include this in my portfolio.
+                </p>
             </div>
         </div>
     </div>
-    <section class="mid">
-        <p id="t1">Together we brainstrom</p>
-        <img src="assets/brainstorm.png" alt="brainstorm">
-        <div class="container">
-            <div class="row">
-                <div class="row align-items-center arrow">
-                    <div class="col-5 ">
-
-                    </div>
-                    <div class="col-2">
-                        <i class="fa-solid fa-arrow-down-long"></i>
-                    </div>
-                    <div class="col-5">
-                        <p>I visualize</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="assets/mooncard.png" alt="tshirt design" id="img2">
-        <p id="t2">You aprove :)</p>
-    </section>
 </main>
 <footer>
     <div class="container">
@@ -88,10 +73,11 @@
                 <p>if you want</p>
             </div>
             <div class="col-md-4 mb-2 order-md-1">
-                <p><i class="fa-solid fa-envelope"></i>  <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a>
+                </p>
             </div>
             <div class="col-md-4 mb-2 order-md-3">
-                <p><i class="fa-solid fa-phone"></i>    +32 (0)476 364 195</p>
+                <p><i class="fa-solid fa-phone"></i> +32 (0)476 364 195</p>
             </div>
         </div>
     </div>

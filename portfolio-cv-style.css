@@ -215,12 +215,12 @@ main article {
 }
 
 main article h1 {
-    font-family: "Utopia Std", sans-serif;
+    font-family: Palatino, sans-serif;
     font-size: 75pt;
 }
 
 main article h2 {
-    font-family: "Utopia Std", sans-serif;
+    font-family: Palatino, sans-serif;
     font-size: 20pt;
     color: #A49FFF;
     margin: 20px auto;
@@ -278,64 +278,49 @@ img {
 #head i {
     color: #A49FFF;
 }
+
 .info {
     width: 100%;
 }
 
-#quote {
-    width: 550px;
+.quote {
+    width: 50%;
+    margin: 4rem auto;
     text-align: center;
-    margin-top: 9rem;
     font-family: Lato, sans-serif;
     font-size: 12pt;
     font-weight: 300;
-    line-height: 2;
 }
 
-#sum {
-    width: 900px;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
+#cv  {
+    width: 70%;
+    margin: 0 auto;
 }
 
-#main {
-
-    margin-top: 15rem;
+.hobby {
+    text-align: right;
 }
 
-#mainlist {
-    list-style-type: disc;
-    padding-left: 1rem;
+#cv .col-md-6 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-#exp {
-    list-style-type: disc;
-    padding-left: 1rem;
-}
-
-#hob {
-    list-style-type: disc;
-    padding-left: 1rem;
-}
-
-#main2 {
-    margin-top: 5rem;
-}
-
-#main3 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-#sum h3 {
-    font-size: 14pt;
-    padding-bottom: 2rem;
+#cv h3 {
     color: #A49FFF;
+    margin-bottom: 1rem;
+}
+#cv img {
+    width: 3rem;
 }
 
-#taal {
-    padding-left: 2rem;
-    list-style-type: none;
+#cv .skills {
+    margin: 3rem auto;
+}
+
+#cv p {
+    font-weight: 300;
+    font-size: 10pt;
 }
 
 @media screen and (max-width: 900px) {
@@ -353,13 +338,6 @@ img {
     #head {
         width: 100%;
     }
-    #quote {
-        width: 100%;
-    }
-    #sum {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 882px) {
     #subpic p {
@@ -371,7 +349,8 @@ img {
     main article h1 {
         font-size: 60px;
     }
+
     #subpic p {
         font-size: 7pt;
     }
-}
+}}

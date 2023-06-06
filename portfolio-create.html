@@ -1,100 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Frederic Steegmans Create</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bootstrap-grid.min kopie.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="portfolio-create-style.css">
+    <meta charset="UTF-8">
+    <title>Frederic Steegmans Create</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-grid.min kopie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Lato:wght@100;300;400;700;900&family=Libre+Baskerville:wght@700&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio-create-style.css">
+    <script defer src="ux-script.js"></script>
 </head>
 <body>
 <nav>
-  <div class="logo"><a href="portfolio.html"><img src="assets/logo-white%20kopie.png"></a></div>
-  <input type="checkbox" id="click">
-  <label for="click" class="menu-btn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <ul>
-    <li><a href="portfolio.html">home</a></li>
-    <li><a href="portfolio-bio.html">bio</a></li>
-    <li><a href="portfolio-cv.html">cv</a></li>
-    <li><a class="active" href="portfolio-works.html">works</a></li>
-    <li><a href="portfolio-contact.html">contact</a></li>
-  </ul>
+    <div class="logo"><a href="portfolio-works.html"><i class="fa-solid fa-arrow-left"></i></a></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a class="active" href="portfolio-create.html">UX/UI</a></li>
+        <li><a href="portfolio-visualise.html">Coding</a></li>
+        <li><a href="portfolio-improve.html">Design</a></li>
+    </ul>
 </nav>
-<a href="#"><div id="terugnaarboven">
-  <p>Top</p>
-</div>
-</a>
-<a href="#"><div id="terugnaarboven2">
-  <p><i class="fa-solid fa-arrow-up"></i></p>
-</div>
-</a>
 <main>
-  <div class="hero">
-    <div class="intro">
-      <h2>Hello,</h2>
-      <h1>My name is Frederic<br>And I'm a <span>Digital Designer</span></h1>
-      <p>
-        I help businesses create a brand and platform to become uncommon <br>
-        amongst many other businesses and stand out.
-        I give a sweet combination of creativity and professionality.
-      </p>
-      <a href="#"><button>get to know me</button></a>
-      <a href="#"><button class="button2">see my work</button></a>
+    <div class="hero">
+        <div class="intro">
+            <h1>UX/UI DESIGN</h1>
+            <p>
+                Checkout below the things i worked on.
+            </p>
+
+        </div>
 
     </div>
 
-  </div>
+    <div class="container-fluid inhoud" >
+        <div class="slideshow-container">
 
-  <div class="container" id="inhoud" >
-    <div class="row">
-      <div class="box box1 col">
-        <img src="assets/darth.png" alt="a balloon">
-      </div>
-      <div class="box box2 col">
-        <img src="assets/uncommon.png" alt="a balloon">
-      </div>
-      <div class="box box3 col">
-        <img src="assets/schoen.png" alt="a balloon">
-      </div>
-      <div class="box box3 col">
-        <img src="assets/zalando1.png" alt="a balloon">
-      </div>
-      <div class="box box3 col">
-        <img src="assets/zalando2.png" alt="a balloon">
-      </div>
-      <div class="box box3 col">
-        <img src="assets/blik.png" alt="a balloon">
-      </div>
-      <div class="box box3 col">
-        <img src="assets/beer.png" alt="a balloon">
-      </div>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="assets/dash1.png" style="width:100%">
+                <div class="text">Dashboard WPL1</div>
+            </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="assets/smafux.png" style="width:100%">
+                <div class="text">Smaf Website</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="assets/pastaux.png" style="width:100%">
+                <div class="text">Pasta Fresca website WPL2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="assets/pastaappux.png" style="width:100%">
+                <div class="text">Pasta Fresca app WPL2</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
     </div>
-  </div>
 </main>
 <footer>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4 my-4 order-md-2" id="footer__mid">
-        <p>Contact me,</p>
-        <p>if you want</p>
-      </div>
-      <div class="col-md-4 mb-2 order-md-1">
-        <p><i class="fa-solid fa-envelope"></i>  <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a></p>
-      </div>
-      <div class="col-md-4 mb-2 order-md-3">
-        <p><i class="fa-solid fa-phone"></i>    +32 (0)476 364 195</p>
-      </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 my-4 order-md-2" id="footer__mid">
+                <p>Contact me,</p>
+                <p>if you want</p>
+            </div>
+            <div class="col-md-4 mb-2 order-md-1">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:fredericsteegmans@gmail.com">fredericsteegmans@gmail.com</a>
+                </p>
+            </div>
+            <div class="col-md-4 mb-2 order-md-3">
+                <p><i class="fa-solid fa-phone"></i> +32 (0)476 364 195</p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div>
-    <a href="https://www.facebook.com/frederic.steegmans.5/"><i class="fa-brands fa-square-facebook"></i></a>
-    <a href="https://www.instagram.com/dr.fre__/?hl=nl"> <i class="fa-brands fa-instagram"></i></a>
-  </div>
+    <div>
+        <a href="https://www.facebook.com/frederic.steegmans.5/"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/dr.fre__/?hl=nl"> <i class="fa-brands fa-instagram"></i></a>
+    </div>
 
 </footer>
 </body>
