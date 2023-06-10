@@ -306,3 +306,50 @@ footer p i {
     margin-right: 10px;
     box-shadow: #000000 ;
 }
+
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+#terugnaarboven2:hover, #terugnaarboven:hover {
+    box-shadow: 0 0 30px 5px rgb(234, 116, 243);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}

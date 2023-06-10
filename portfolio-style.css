@@ -162,6 +162,7 @@ input[type="checkbox"]{
 .hero .intro h1 span {
     color: #f0bef6;
     font-size: 50pt;
+
 }
 
 .hero .intro h2 {
@@ -218,7 +219,7 @@ input[type="checkbox"]{
     font-family: Lato, sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
-    color: rgba(161, 159, 159, 0.6);
+    color: rgba(115, 115, 115, 0.73);
 }
 #welkom button {
     border-radius: 15px;
@@ -275,7 +276,7 @@ input[type="checkbox"]{
     font-family: Lato, sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
-    color: rgba(161, 159, 159, 0.6);
+    color: rgba(115, 115, 115, 0.73);
     padding: 1rem;
 }
 
@@ -287,9 +288,9 @@ input[type="checkbox"]{
     margin-bottom: 2rem;
     font-family: Palatino, sans-serif;
 }
-#latest {
+#latest .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 6rem auto;
     margin-bottom: 5rem;
     background-color: #ffffff;
     border-radius: 20px;
@@ -309,7 +310,7 @@ input[type="checkbox"]{
     font-family: Lato, sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
-    color: rgba(161, 159, 159, 0.6);
+    color: rgba(115, 115, 115, 0.73);
 }
 
 #latest .pasta img {
@@ -337,6 +338,8 @@ input[type="checkbox"]{
         text-align: center;
     }
 }
+
+
 
 
 /* Cards*/
@@ -440,6 +443,53 @@ footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
+}
+
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #ffffff;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #FF8FF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #ffffff;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+#terugnaarboven2:hover, #terugnaarboven:hover {
+    box-shadow: 0 0 30px 5px rgb(234, 116, 243);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
 }
 
 
