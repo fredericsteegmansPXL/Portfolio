@@ -393,6 +393,11 @@ input[type="checkbox"]{
 .card a:hover span {
     transform: rotate(0);
 }
+@media screen and (max-width: 920px) {
+    .card a span {
+        font-size: 15px;
+    }
+}
 .card #hover1 {
     background-image: url("assets/ux.png");
     background-position: bottom;
