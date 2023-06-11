@@ -262,6 +262,12 @@ footer p i {
     padding-bottom: 8rem;
     background-color: #faf1f1;
 }
+.inhoud h1 {
+    margin: 3rem auto;
+    font-family: Palatino, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
 
 .slideshow-container {
     max-width: 1000px;

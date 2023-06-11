@@ -189,6 +189,7 @@ input[type="checkbox"]{
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    background-color: rgba(241, 150, 248, 0.94);
     cursor: pointer;
 }
 
@@ -241,6 +242,12 @@ input[type="checkbox"]{
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 920px) {
+    .card a span {
+        font-size: 15px;
+    }
 }
 
 .card a:hover span {

@@ -304,6 +304,10 @@ input[type="checkbox"]{
     font-family: Palatino, sans-serif;
     margin-bottom: 1rem;
 }
+#latest a {
+    text-decoration: none;
+    color: #f196f8;
+}
 
 #latest p {
     font-size: 10pt;

@@ -269,13 +269,7 @@ main article {
     box-shadow: 0 0 30px 5px rgba(192, 199, 250, 0.32);
 }
 
-.mid img:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px 5px rgba(241, 150, 248, 0);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
+
 
 .mid p {
     padding: 2rem 2rem 2rem 0;

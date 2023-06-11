@@ -212,8 +212,14 @@ input[type="checkbox"]{
     padding: 5rem;
 }
 .inhoud .row {
-    margin-top: 4rem;
-    margin-bottom: 20rem;
+    margin-top: 4rem auto;
+}
+.inhoud h1 {
+    font-family: Palatino, sans-serif;
+    margin-bottom: 1rem;
+}
+.inhoud p {
+    color: #595858;
 }
 .inhoud img {
     width: 70%;
@@ -226,10 +232,19 @@ input[type="checkbox"]{
 }
 
 
+
 @media (max-width: 920px) {
     .hero .intro {
         margin: 0 auto;
         padding: 2rem;
+    }
+    .pic1 {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .pic2 {
+        text-align: center;
+        margin-bottom: 3rem;
     }
 }
 
@@ -265,4 +280,10 @@ footer p i {
     font-size: 15pt;
     margin-right: 10px;
     box-shadow: #000000 ;
+}
+
+
+hr {
+    width: 40%;
+    margin: 8rem auto;
 }
